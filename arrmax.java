@@ -10,16 +10,16 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n,max;
+		int p,max;
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
-		int a[]=new int[n];
-		for(int i=0;i<n;i++)
+		int a[]=new int[p];
+		for(int i=0;i<p;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		max=a[0];
-		for(int i=0;i<n;i++)
+		for(int i=0;i<p;i++)
 		{
 			
 			if(max<a[i])
