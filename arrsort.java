@@ -35,6 +35,6 @@ class Ideone
 			System.out.println(a[i]+" ");
 			
 		}
-		System.out.println(a[p+1]);
+		
 	}
 }
