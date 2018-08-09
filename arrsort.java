@@ -10,17 +10,17 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n,temp,i,j;
+		int p,temp,i,j;
 		Scanner s=new Scanner(System.in);
-		n=s.nextInt();
-		int a[]=new int[n];
-		for(i=0;i<n;i++)
+		p=s.nextInt();
+		int a[]=new int[p];
+		for(i=0;i<p;i++)
 		{
 			a[i]=s.nextInt();
 		}
-		for(i=0;i<n;i++)
+		for(i=0;i<p;i++)
 		{
-			for(j=i+1;j<n;j++)
+			for(j=i+1;j<p;j++)
 			{
 				if(a[i]>a[j])
 				{
@@ -30,11 +30,11 @@ class Ideone
 					}
 			}
 		}
-		for(i=0;i<n;i++)
+		for(i=0;i<p;i++)
 		{
 			System.out.println(a[i]+" ");
 			
 		}
-		System.out.println(a[n+1]);
+		System.out.println(a[p+1]);
 	}
 }
