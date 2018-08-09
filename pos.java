@@ -9,13 +9,16 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int i=0;
+	int p;
+	System.out.println("enter a value");
+		Scanner s=new Scanner(System.in);
+		p=s.nextInt();
 	
-	if(i<0)
+	if(p<0)
 	{
 		System.out.println("negative");
 	}
-	else if(i>0)
+	else if(p>0)
 	{
 		System.out.println("positive");
 	}
