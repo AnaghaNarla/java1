@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
 		int t1=0,t2=1,sum=0;
 		for(int i=0;i<n;i++)
 		{
