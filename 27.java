@@ -23,11 +23,11 @@ class Ideone
 		}
 		if(numeric)
 		{
-			System.out.println("yes");
+			System.out.println("Yes");
 		}
 		else
 		{
-			System.out.println("no");
+			System.out.println("No");
 		}
 	}
 }
