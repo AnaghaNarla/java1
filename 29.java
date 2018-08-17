@@ -11,8 +11,8 @@ class Ideone
 	{
 		// your code goes here
 		int num,rem=0,min;
-		Scanner sc=new Scanner(System.in);
-		num=sc.nextInt();
+		Scanner s=new Scanner(System.in);
+		num=s.nextInt();
 		min=num/60;
 		rem=num%60;
 		System.out.println(min +" "+rem);
