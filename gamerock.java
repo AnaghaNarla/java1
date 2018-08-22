@@ -13,6 +13,7 @@ class Ideone
 	{
 		// your code goes here
 		Scanner scan = new Scanner(System.in);
+	
         System.out.println("Player 1: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
         int player1 = scan.nextInt();
         System.out.println("Player 2: Choose (1) - Rock, (2) - Scissors, or (3) - Paper: ");
