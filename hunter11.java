@@ -10,8 +10,8 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner s=new Scanner(System.in);
-		 String sc=s.nextLine();
+		Scanner p=new Scanner(System.in);
+		 String sc=p.nextLine();
  
         // getBytes() method to convert string 
         // into bytes[].
