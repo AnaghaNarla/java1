@@ -10,12 +10,12 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int p,t,r,n;
+		int p,t,r,l;
 		Scanner s=new Scanner(System.in);
 		p=s.nextInt();
 		t=s.nextInt();
 		r=s.nextInt();
-		n=p*t*r/100;
+		l=p*t*r/100;
 		System.out.println(n);
 	}
 }
